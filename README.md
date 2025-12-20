@@ -18,7 +18,7 @@ Scheduled time windows (IST):
 
 ---
 
-# 2️. AWS Services Used
+# 2. AWS Services Used
 
 Amazon EC2 – Compute instances
 
@@ -30,7 +30,7 @@ AWS IAM – Permissions management
 
 ---
 
-# 3️. Overall Working Flow
+# 3. Overall Working Flow
 
 EventBridge (Cron Schedule)
         
@@ -40,7 +40,7 @@ EC2 Instances Start / Stop
 
 ---
 
-# 4️. Step 1: EC2 Instance
+# 4. Step 1: EC2 Instance
 - Create 3 EC2 Instances 
 - Open Amazon EC2 
 - Click Launch instance 
@@ -50,7 +50,7 @@ EC2 Instances Start / Stop
 
   ---
 
- # 5️. Step 2: Create IAM Role for Lambda
+ # 5. Step 2: Create IAM Role for Lambda
 
 ## Lambda requires permissions to manage EC2 and write logs.
 
